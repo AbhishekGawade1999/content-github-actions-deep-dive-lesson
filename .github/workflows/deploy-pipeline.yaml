@@ -69,7 +69,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: zipped-bundle.zip
+        asset_path: zipped-bundle
         asset_name: zipped-bundle
         asset_content_type: application/zip
 
