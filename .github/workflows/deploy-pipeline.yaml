@@ -52,7 +52,7 @@ jobs:
     - name: Download code coverage report
       uses: actions/download-artifact@v4
       with:
-        name: zipped-bundle.zip
+        name: zipped-bundle
     - name: Create Draft Release
       id: create_release
       uses: actions/create-release@v1
